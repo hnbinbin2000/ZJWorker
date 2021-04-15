@@ -1,0 +1,6 @@
+framework module Pods_ZJWorker {
+  umbrella header "Pods-ZJWorker-umbrella.h"
+
+  export *
+  module * { export * }
+}
