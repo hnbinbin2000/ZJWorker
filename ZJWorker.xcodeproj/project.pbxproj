@@ -23,6 +23,8 @@
 		4ED85CF72628021900AAC307 /* UserInfosNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED85CF62628021900AAC307 /* UserInfosNet.swift */; };
 		4ED85CFD2628042E00AAC307 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED85CFC2628042E00AAC307 /* NetworkReachability.swift */; };
 		4ED85D00262805C500AAC307 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED85CFF262805C500AAC307 /* Response.swift */; };
+		4ED85D432628272D00AAC307 /* TemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED85D422628272D00AAC307 /* TemplateModel.swift */; };
+		4ED85D462628279500AAC307 /* TemplateNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED85D452628279500AAC307 /* TemplateNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		4ED85CF62628021900AAC307 /* UserInfosNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfosNet.swift; sourceTree = "<group>"; };
 		4ED85CFC2628042E00AAC307 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		4ED85CFF262805C500AAC307 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4ED85D422628272D00AAC307 /* TemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateModel.swift; sourceTree = "<group>"; };
+		4ED85D452628279500AAC307 /* TemplateNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateNet.swift; sourceTree = "<group>"; };
 		DABAD441A204982CAC20749D /* Pods-ZJWorker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJWorker.debug.xcconfig"; path = "Target Support Files/Pods-ZJWorker/Pods-ZJWorker.debug.xcconfig"; sourceTree = "<group>"; };
 		E0716E1203EE04493870B64D /* Pods_ZJWorker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJWorker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,6 +119,7 @@
 				4ED85CE32627F01500AAC307 /* HomeMetasNet.swift */,
 				4ED85CF32628020900AAC307 /* WorkFlowNet.swift */,
 				4ED85CF62628021900AAC307 /* UserInfosNet.swift */,
+				4ED85D452628279500AAC307 /* TemplateNet.swift */,
 				4ED85CFC2628042E00AAC307 /* NetworkReachability.swift */,
 				4ED85CFF262805C500AAC307 /* Response.swift */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4ED85CE02627EBD100AAC307 /* WorkerStatus.swift */,
+				4ED85D422628272D00AAC307 /* TemplateModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,7 +291,9 @@
 				4ED85CFD2628042E00AAC307 /* NetworkReachability.swift in Sources */,
 				4ED85CE9262800DB00AAC307 /* NetDefine.swift in Sources */,
 				4ED85CEE2628016900AAC307 /* SizeDefine.swift in Sources */,
+				4ED85D462628279500AAC307 /* TemplateNet.swift in Sources */,
 				4ED85CA52626ED4400AAC307 /* ViewController.swift in Sources */,
+				4ED85D432628272D00AAC307 /* TemplateModel.swift in Sources */,
 				4ED85D00262805C500AAC307 /* Response.swift in Sources */,
 				4ED85CD72627E7CD00AAC307 /* OfficeNet.swift in Sources */,
 				4ED85CF72628021900AAC307 /* UserInfosNet.swift in Sources */,

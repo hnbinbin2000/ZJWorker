@@ -13,5 +13,5 @@ target 'ZJWorker' do
     pod 'YYKit'
     pod 'MoyaMapper'
     pod 'HandyJSON'
-    pod 'RxSwift'
+    pod 'MCDLogger'
 end
