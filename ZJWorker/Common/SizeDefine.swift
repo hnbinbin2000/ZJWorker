@@ -40,3 +40,7 @@ func COLORFROMRGB(r:CGFloat,_ g:CGFloat,_ b:CGFloat, alpha:CGFloat) -> UIColor
 func COLORFROM16(h:Int) ->UIColor {
     return COLORFROMRGB(r: CGFloat(((h)>>16) & 0xFF), CGFloat(((h)>>8) & 0xFF), CGFloat((h) & 0xFF), alpha: 1.0)
 }
+
+func COLORFROM16(h:Int, alpha: CGFloat) ->UIColor {
+    return COLORFROMRGB(r: CGFloat(((h)>>16) & 0xFF), CGFloat(((h)>>8) & 0xFF), CGFloat((h) & 0xFF), alpha: CGFloat(alpha))
+}

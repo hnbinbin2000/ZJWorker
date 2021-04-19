@@ -13,5 +13,7 @@ target 'ZJWorker' do
     pod 'YYKit'
     pod 'MoyaMapper'
     pod 'HandyJSON'
-    pod 'MCDLogger'
+    pod 'SnapKit'
+    pod 'XHTabBarSwift'
+    pod 'ETNavBarTransparent'
 end
